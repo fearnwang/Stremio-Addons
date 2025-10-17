@@ -1,0 +1,26 @@
+{
+  "id": "my-live-tv",
+  "version": "1.0.0",
+  "name": "My Live TV",
+  "description": "Kilvn Live IPTV for Stremio",
+  "resources": [
+    {
+      "name": "catalog",
+      "types": ["tv"],
+      "idPrefixes": ["my-live-tv"]
+    },
+    {
+      "name": "stream",
+      "types": ["tv"],
+      "idPrefixes": ["my-live-tv"]
+    }
+  ],
+  "types": ["tv"],
+  "catalogs": [
+    {
+      "type": "tv",
+      "id": "my-live-tv-catalog",
+      "name": "My Live TV Channels"
+    }
+  ]
+}
